@@ -13,8 +13,8 @@
 		84FBF7FE219D19DA00C39DD6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84FBF7FD219D19DA00C39DD6 /* Assets.xcassets */; };
 		84FBF801219D19DA00C39DD6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84FBF7FF219D19DA00C39DD6 /* LaunchScreen.storyboard */; };
 		84FBF804219D19DA00C39DD6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84FBF803219D19DA00C39DD6 /* main.m */; };
-		84FBF80F219D1C7B00C39DD6 /* AViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84FBF80E219D1C7B00C39DD6 /* AViewController.m */; };
 		84FBF839219D214200C39DD6 /* Target_A.m in Sources */ = {isa = PBXBuildFile; fileRef = 84FBF838219D214200C39DD6 /* Target_A.m */; };
+		84FBF83C219D5DC400C39DD6 /* AViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84FBF83B219D5DC400C39DD6 /* AViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,10 +28,10 @@
 		84FBF800219D19DA00C39DD6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		84FBF802219D19DA00C39DD6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		84FBF803219D19DA00C39DD6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		84FBF80D219D1C7B00C39DD6 /* AViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AViewController.h; sourceTree = "<group>"; };
-		84FBF80E219D1C7B00C39DD6 /* AViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AViewController.m; sourceTree = "<group>"; };
 		84FBF837219D214200C39DD6 /* Target_A.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Target_A.h; sourceTree = "<group>"; };
 		84FBF838219D214200C39DD6 /* Target_A.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Target_A.m; sourceTree = "<group>"; };
+		84FBF83A219D5DC400C39DD6 /* AViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AViewController.h; sourceTree = "<group>"; };
+		84FBF83B219D5DC400C39DD6 /* AViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,8 +82,6 @@
 			isa = PBXGroup;
 			children = (
 				84FBF836219D211F00C39DD6 /* Targets */,
-				84FBF80D219D1C7B00C39DD6 /* AViewController.h */,
-				84FBF80E219D1C7B00C39DD6 /* AViewController.m */,
 			);
 			path = A;
 			sourceTree = "<group>";
@@ -93,6 +91,8 @@
 			children = (
 				84FBF837219D214200C39DD6 /* Target_A.h */,
 				84FBF838219D214200C39DD6 /* Target_A.m */,
+				84FBF83A219D5DC400C39DD6 /* AViewController.h */,
+				84FBF83B219D5DC400C39DD6 /* AViewController.m */,
 			);
 			path = Targets;
 			sourceTree = "<group>";
@@ -167,8 +167,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84FBF80F219D1C7B00C39DD6 /* AViewController.m in Sources */,
 				84FBF7F9219D19D900C39DD6 /* ViewController.m in Sources */,
+				84FBF83C219D5DC400C39DD6 /* AViewController.m in Sources */,
 				84FBF839219D214200C39DD6 /* Target_A.m in Sources */,
 				84FBF804219D19DA00C39DD6 /* main.m in Sources */,
 				84FBF7F6219D19D900C39DD6 /* AppDelegate.m in Sources */,

@@ -6,11 +6,11 @@
 //  Copyright © 2018 chenyuanwei. All rights reserved.
 //
 
-#import "ViewController.h"
+#import <UIKit/UIKit.h>
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface AViewController : ViewController
+@interface AViewController : UIViewController
 
 @end
 
