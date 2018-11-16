@@ -7,6 +7,7 @@
 //
 
 #import "AViewController.h"
+#import <B_Category/CTMediator+B.h>
 
 @interface AViewController ()
 
@@ -28,5 +29,9 @@
     // Pass the selected object to the new view controller.
 }
 */
+- (IBAction)pushBVc:(id)sender {
+    UIViewController *viewController = [[CTMediator sharedInstance] B_viewControllerWithContentText:@"hello, world!"];
+    [self.navigationController pushViewController:viewController animated:YES];
+}
 
 @end

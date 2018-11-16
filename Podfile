@@ -8,4 +8,6 @@ use_frameworks!
 
 target 'A' do
  
+   pod "B_Category"
+   
 end
