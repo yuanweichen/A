@@ -9,9 +9,9 @@
 /* Begin PBXBuildFile section */
 		6278C99637CEF59A1F885763 /* Pods_A.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16194BCDD5C21D97B7922FBE /* Pods_A.framework */; };
 		84FBF7F6219D19D900C39DD6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84FBF7F5219D19D900C39DD6 /* AppDelegate.m */; };
-		84FBF7FC219D19D900C39DD6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84FBF7FA219D19D900C39DD6 /* Main.storyboard */; };
+		84FBF7FC219D19D900C39DD6 /* AMain.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84FBF7FA219D19D900C39DD6 /* AMain.storyboard */; };
 		84FBF7FE219D19DA00C39DD6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84FBF7FD219D19DA00C39DD6 /* Assets.xcassets */; };
-		84FBF801219D19DA00C39DD6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84FBF7FF219D19DA00C39DD6 /* LaunchScreen.storyboard */; };
+		84FBF801219D19DA00C39DD6 /* ALaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84FBF7FF219D19DA00C39DD6 /* ALaunchScreen.storyboard */; };
 		84FBF804219D19DA00C39DD6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84FBF803219D19DA00C39DD6 /* main.m */; };
 		84FBF839219D214200C39DD6 /* Target_A.m in Sources */ = {isa = PBXBuildFile; fileRef = 84FBF838219D214200C39DD6 /* Target_A.m */; };
 		84FBF83C219D5DC400C39DD6 /* AViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84FBF83B219D5DC400C39DD6 /* AViewController.m */; };
@@ -23,9 +23,9 @@
 		84FBF7F1219D19D900C39DD6 /* A.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = A.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84FBF7F4219D19D900C39DD6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		84FBF7F5219D19D900C39DD6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		84FBF7FB219D19D900C39DD6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		84FBF7FB219D19D900C39DD6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/AMain.storyboard; sourceTree = "<group>"; };
 		84FBF7FD219D19DA00C39DD6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		84FBF800219D19DA00C39DD6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		84FBF800219D19DA00C39DD6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/ALaunchScreen.storyboard; sourceTree = "<group>"; };
 		84FBF802219D19DA00C39DD6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		84FBF803219D19DA00C39DD6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		84FBF837219D214200C39DD6 /* Target_A.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Target_A.h; sourceTree = "<group>"; };
@@ -79,9 +79,9 @@
 				84FBF80C219D1C6E00C39DD6 /* A */,
 				84FBF7F4219D19D900C39DD6 /* AppDelegate.h */,
 				84FBF7F5219D19D900C39DD6 /* AppDelegate.m */,
-				84FBF7FA219D19D900C39DD6 /* Main.storyboard */,
+				84FBF7FA219D19D900C39DD6 /* AMain.storyboard */,
 				84FBF7FD219D19DA00C39DD6 /* Assets.xcassets */,
-				84FBF7FF219D19DA00C39DD6 /* LaunchScreen.storyboard */,
+				84FBF7FF219D19DA00C39DD6 /* ALaunchScreen.storyboard */,
 				84FBF802219D19DA00C39DD6 /* Info.plist */,
 				84FBF803219D19DA00C39DD6 /* main.m */,
 			);
@@ -175,9 +175,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84FBF801219D19DA00C39DD6 /* LaunchScreen.storyboard in Resources */,
+				84FBF801219D19DA00C39DD6 /* ALaunchScreen.storyboard in Resources */,
 				84FBF7FE219D19DA00C39DD6 /* Assets.xcassets in Resources */,
-				84FBF7FC219D19D900C39DD6 /* Main.storyboard in Resources */,
+				84FBF7FC219D19D900C39DD6 /* AMain.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -247,20 +247,20 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		84FBF7FA219D19D900C39DD6 /* Main.storyboard */ = {
+		84FBF7FA219D19D900C39DD6 /* AMain.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				84FBF7FB219D19D900C39DD6 /* Base */,
 			);
-			name = Main.storyboard;
+			name = AMain.storyboard;
 			sourceTree = "<group>";
 		};
-		84FBF7FF219D19DA00C39DD6 /* LaunchScreen.storyboard */ = {
+		84FBF7FF219D19DA00C39DD6 /* ALaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				84FBF800219D19DA00C39DD6 /* Base */,
 			);
-			name = LaunchScreen.storyboard;
+			name = ALaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

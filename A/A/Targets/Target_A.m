@@ -12,7 +12,7 @@
 
 - (UIViewController *)Action_viewController:(NSDictionary *)params
 {
-    UIStoryboard *mainStoryboard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
+    UIStoryboard *mainStoryboard = [UIStoryboard storyboardWithName:@"AMain" bundle:nil];
     AViewController *viewController = [mainStoryboard instantiateInitialViewController];
     return viewController;
 }
