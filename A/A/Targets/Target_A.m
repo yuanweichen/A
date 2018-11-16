@@ -12,7 +12,7 @@
 
 - (UIViewController *)Action_viewController:(NSDictionary *)params
 {
-    AViewController *viewController = [[AViewController alloc] init];
+    AViewController *viewController = [[AViewController alloc] initWithNibName:@"AViewController" bundle:nil];
     return viewController;
 }
 
