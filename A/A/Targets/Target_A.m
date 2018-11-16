@@ -12,7 +12,8 @@
 
 - (UIViewController *)Action_viewController:(NSDictionary *)params
 {
-    AViewController *viewController = [[AViewController alloc] initWithNibName:@"AViewController" bundle:nil];
+    UIStoryboard *mainStoryboard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
+    AViewController *viewController = [mainStoryboard instantiateInitialViewController];
     return viewController;
 }
 
