@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "A"
-  s.version      = "14"
+  s.version      = "15"
   s.summary      = "A."
 
   # This description is used to generate tags and improve search results.
@@ -106,7 +106,7 @@ Pod::Spec.new do |s|
   #
 
   # s.resource  = "icon.png"
-   s.resources = "A/*.{storyboard}"
+   s.resources = "A/Base.lproj/*.{storyboard}"
 
   # s.preserve_paths = "FilesToSave", "MoreFilesToSave"
 
